@@ -37,7 +37,10 @@ graph TD
     style BRG fill:#f9f,stroke:#333,stroke-width:2px
     style TX_UNIT fill:#bbf,stroke:#333,stroke-width:2px
     style RX_UNIT fill:#bfb,stroke:#333,stroke-width:2px
-🚀 Key Features
+
+
+
+    🚀 Key Features
 Robust Receiver: Implements 16x Oversampling logic. Instead of a single check, it samples the incoming data 16 times per bit period and captures the value at the exact center (Tick 7/15), minimizing errors due to clock drift or noise.
 
 FSM-Based Control: Utilizes efficient Finite State Machines (FSM) (Idle → Start → Data → Stop) for reliable operation.
@@ -99,6 +102,7 @@ graph TD
     style BRG fill:#f9f,stroke:#333,stroke-width:2px
     style TX_UNIT fill:#bbf,stroke:#333,stroke-width:2px
     style RX_UNIT fill:#bfb,stroke:#333,stroke-width:2px
+
 🚀 Key Features
 Robust Receiver: Implements 16x Oversampling logic. Instead of a single check, it samples the incoming data 16 times per bit period and captures the value at the exact center (Tick 7/15), minimizing errors due to clock drift or noise.
 
@@ -141,3 +145,4 @@ baund_rate_gen.v: Generates clock ticks.
 tb_uart_top.v: Loopback Testbench.
 
 Author: Harshit | IIIT Bhopal
+
