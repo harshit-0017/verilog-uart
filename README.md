@@ -56,14 +56,6 @@ cd verilog-uart
 iverilog -o sim_result tb_uart_top.v uart_top.v Transmitter.v receiver.v baund_rate_gen.v
 vvp sim_result
 gtkwave waveform.vcd
-Yeh raha wo Pura Content jo tumhe apni README.md file mein likhna hai.
 
-Isme maine Block Diagram aur Waveform Image ka code bhi set kar diya hai.
 
-Step 1: Copy this Code
-Niche diye gaye box mein se sab kuch copy kar lo:
 
-Markdown
-# UART Transceiver with 16x Oversampling (Verilog)
-
-![Language](https://img.shields.io/badge/Language-Verilog-blue) ![Tools](https://img.shields.io/badge/Tools-Icarus%20Verilog%20%7C%20GTKWave-green) ![Status](https://img.shields.io/badge/Status-Verified-brightgreen)
